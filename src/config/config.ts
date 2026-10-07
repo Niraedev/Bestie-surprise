@@ -4,7 +4,7 @@
 
 export const config = {
   // --- SECURITY ---
-  password: "nav",
+  password: "1234567",
 
   // --- HINTS (shown in order, looping) ---
   hints: [

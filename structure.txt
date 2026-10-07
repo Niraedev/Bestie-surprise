@@ -1,0 +1,25 @@
+src/
+├── config/
+│   └── config.ts          
+├── pages/
+│   ├── LandingPage.tsx
+│   ├── WelcomePage.tsx
+│   ├── ChoicePage.tsx
+│   ├── SecretPage.tsx
+│   └── GamePage.tsx
+├── components/
+│   ├── CharacterGuide.tsx
+│   ├── ParticleField.tsx
+│   ├── MagicButton.tsx
+│   ├── Dialogue.tsx
+│   └── ProgressBar.tsx
+├── hooks/
+│   ├── useTypewriter.ts   ← was there before
+│   └── useDialogue.ts     ← NEW — character dialogue hook
+├── utils/
+│   ├── animations.ts      ← NEW — Framer Motion variants
+│   └── helpers.ts         ← NEW — random position, sleep, clamp etc.
+├── App.tsx
+├── App.css                ← cleaned up
+└── index.css
+README.md                  ← NEW — full setup guide
